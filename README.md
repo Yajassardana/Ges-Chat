@@ -2,7 +2,7 @@
 **Ges'Chat** is the **next generation** of video calling applications with **gesture control** to bridge the cap between school, office and home environments. It allows you to send messages, host video conferences and control your call experience with fluid hand gestures.
 
 # Live Demo
-https://ges-chat.live/#/ (Allow notifications for the best experience)<br>
+https://ges-chat.live (Allow notifications for the best experience)<br>
 Search for "Yajas Sardana" in the app's search bar to talk with me :')
 # Preview
 ![Chat]
