@@ -1,0 +1,8 @@
+.gesture-switch{
+    display: flex;
+    align-items: center;
+}
+.gesture-container{
+    display: flex;
+    width: 90%;
+}

@@ -1,0 +1,53 @@
+.back-container{
+    background-color: #242136;
+    height : 100vh;
+    width : 100vw;
+}
+.meet-chat-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.meet-container{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 2%;
+}
+.chat-container{
+    width: 25%;
+    background-color: #333357;
+    /* border-left: 1px solid rgba(245,0,87, 0.25); */
+    box-shadow: 0px 11px 21px rgb(0 0 0 / 46%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#react-jitsi-container{
+    height: 90% !important;
+    width: 90% !important;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#react-jitsi-container>div>svg{
+    color: #F50057;
+}
+.gesture-container{
+    display: flex;
+    width: 90%;
+}
+.switch-container{
+    display: flex;
+    align-items: center;
+}
+#react-jitsi-frame{
+    
+}
