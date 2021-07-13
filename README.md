@@ -5,11 +5,12 @@
 https://ges-chat.live (Allow notifications for the best experience)<br>
 Search for "Yajas Sardana" in the app's search bar to talk with me :')
 # Preview
-![Chat]
-![Meet]
+![Chat](https://github.com/Yajassardana/Ges-Chat/blob/master/Chat_Preview.png)
+![Meet](https://github.com/Yajassardana/Ges-Chat/blob/master/In_Meet_Preview.png)
 
 ## Table of content
   - [Features](#features)
+  - [TechStack](#techstack)
   - [Development](#development)
 ## Features
 - **One to One and Room Group Messaging**
@@ -38,7 +39,31 @@ Search for "Yajas Sardana" in the app's search bar to talk with me :')
 - **Authentication**
   - Login using gmail account.
   - Auth check in meet to **prevent unauthorized** users from entering.
+## TechStack
+1. Front End / Client Side
+   - ReactJS
+   - TensorFlowJS - Gesture Detection
+   - React Context API - App state management
+2. BackEnd Server:
+    - For search
+      - Algolia search - data indexing
+      - Heroku NodeJs environment - deployment.
+    - For video calling
+      - Jitsi SDK - Layer over webRTC
+      - AWS EC2 instance for Jitsi SDK server deployment
 
+3. Data Management (Databases): 
+    - Firebase Firestore - Data management and messaging
+    - Firebase Realtime-db - Online status and typing state management
 ## Development
-In order to run the app setup a firebase project then navigate to "src/firebase" and put your config object there and then go to your project settings in firebase then get a service account file from there and go put it on "backend" folder.
-Then setup an algolia search project then put your keys in "backend/index.js" and "src/Sidebar.js".
+### Configuration
+ 1. Setup a firebase project and then navigate to `src/firebase` and put your `firebase config` object there.
+ 2. Then go to your project settings in firebase then get a service account file from there and go put it on `backend` folder. 
+ 3. Intiliaze and configure your firestore and realtimedb databases and set `databaseUrl` in `backend/index.js` as your realtimedb link.
+ 4. Then setup an algolia search project then put your keys in `backend/index.js` and `src/Sidebar.js`.
+### Setup
+1. Run `npm install` in the root directory to install all necassary dependencies.
+2. Navigate to the `backend folder` and again, run `npm install`.
+### Running on localhost
+1. In the root directory, run `npm run start` to start the react app server.
+2. Navigate to the `backend folder` and `node index.js` to start the backend server.
