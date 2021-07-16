@@ -7,6 +7,7 @@ Search for "Yajas Sardana" in the app's search bar to talk with me :')
 # Preview
 ![Chat](https://github.com/Yajassardana/Ges-Chat/blob/master/Chat_Preview.png)
 ![Meet](https://github.com/Yajassardana/Ges-Chat/blob/master/In_Meet_Preview.png)
+![technology ppt template - 10 slides - creative (1) pptx](https://user-images.githubusercontent.com/62782513/125960894-bb70c487-4eb0-4c2d-96ba-78bf7936abc9.jpg)
 
 ## Table of content
   - [Features](#features)
@@ -39,7 +40,13 @@ Search for "Yajas Sardana" in the app's search bar to talk with me :')
 - **Authentication**
   - Login using gmail account.
   - Auth check in meet to **prevent unauthorized** users from entering.
+<br></br>
+![technology ppt template - 10 slides - creative (1) pptx (1)](https://user-images.githubusercontent.com/62782513/125961096-8c9e2d41-01c6-4b4d-ad7f-09efb9366fdc.png)
+![technology ppt template - 10 slides - creative (1) pptx (2)](https://user-images.githubusercontent.com/62782513/125961164-9f08b341-db99-447a-a352-80e1dc485edd.png)
+
 ## TechStack
+![technology ppt template - 10 slides - creative (1) pptx](https://user-images.githubusercontent.com/62782513/125960317-e4826db7-6905-4180-a172-38bc1a22312b.png)
+
 1. Front End / Client Side
    - ReactJS
    - TensorFlowJS - Gesture Detection
